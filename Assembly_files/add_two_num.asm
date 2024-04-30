@@ -12,13 +12,6 @@ section .data
 section .text
 	global _start
 
-;_add:
-;	; Add two numbers
-;	mov rax, qword [buffer1]
-;	add rax, qword [buffer2]
-;	mov qword [result], rax
-;	ret	
-
 _start:
 	; Print the Enter Number Prompt
 	mov rax, 1			; sys_write 
@@ -58,14 +51,6 @@ _start:
 	add rax, '0'
 
 	mov [result], rax
-
-	; Print Result
-	 ; Determine length of the result
-    	;mov rcx, 0
-;.next_digit:
-    	;inc rcx
-    	;cmp byte [result + rcx], 0
-    	;jne .next_digit
     
     	mov rax, 1
 	mov rdi, 1
