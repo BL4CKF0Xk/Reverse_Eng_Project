@@ -1,3 +1,12 @@
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+; Program Name: Pushing value to stack
+; Author: bl4ckf0xk
+; Date: 01/05/2024
+; Purpose: Count the input in assembly programming
+; program using nasm and ld
+;------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 section .data
     prompt db "Enter the text: ", 0
     prompt_len equ $ - prompt
