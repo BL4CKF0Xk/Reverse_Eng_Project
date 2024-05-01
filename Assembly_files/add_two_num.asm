@@ -1,3 +1,11 @@
+;-------------------------------------------------------------------------------------------------------------------------------------------------------
+; Program Name: Pushing value to stack
+; Author: bl4ckf0xk
+; Date: 29/04/2024
+; Purpose: Adding two numbers in assembly programming
+; program using nasm and ld
+;------------------------------------------------------------------------------------------------------------------------------------------------------
+
 section .data
 	enter_num db "Enter First Number: ", 0
 	enter_num_len equ $ - enter_num
